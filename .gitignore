@@ -1,2 +1,32 @@
+# Python environment and caches
 venv/
+**/venv/
 __pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large binary signal captures and PCAP traces (maintained via micro-repos / Git LFS)
+*.sigmf-data
+*.pcap
+*.pcapng
+
+# IDE, OS, and scratch artifacts
+.vscode/
+.idea/
+*.DS_Store
+*.swp
+*.swo
+*~
+*.log
+scratch/
+patch_*.js
+check_*.js
+
+# Standalone nested repository & prototypes
+automated-defense-magazine-generator/
+magazine_generation/

@@ -1,0 +1,391 @@
+{
+  "title": "SECURING THE NORTHEAST",
+  "subtitle": "Indian Army’s Role in Stability, Peace & National Security",
+  "issue_label": "OCTOBER 2026",
+  "edition": "Vol. 1, Issue 1",
+  "short_title": "SECURING THE NORTHEAST",
+  "cover": {
+    "image": "images/a5.jpg",
+    "credit": "Photo: India Today NE",
+    "feature_kicker": "Special Report",
+    "feature": "THE HIMALAYAN SHIELD",
+    "lines": [
+      {
+        "kicker": "Infrastructure",
+        "text": "BRO's Race to Connect the Frontier"
+      },
+      {
+        "kicker": "Youth",
+        "text": "Empowering Tomorrow's Leaders"
+      }
+    ]
+  },
+  "contents_image": {
+    "image": "images/a7.jpg",
+    "credit": "Photo: SSBCrack"
+  },
+  "editor": {
+    "title": "Securing the Future",
+    "dek": "A comprehensive look at the Indian Army's multifaceted role in the Northeast, blending robust border defense with transformative socio-economic development.",
+    "body": [
+      "The Northeast region of India presents a unique tapestry of strategic challenges and immense, untapped potential. Geographically distinct and culturally diverse, it acts as a vital land bridge to Southeast Asia while sharing porous borders with several neighboring nations. The Indian Army's role here is fundamentally unique—it extends far beyond the conventional paradigms of border defense.",
+      "In this inaugural issue of the Northeast Frontier E-Magazine, we delve into the strategic imperatives driving infrastructure development in some of the most inhospitable terrains on Earth. The 'Vibrant Villages' program and the Border Roads Organisation's relentless push for connectivity are not merely engineering feats; they are lifelines that integrate remote communities into the national mainstream.",
+      "Furthermore, we explore the ongoing efforts to maintain peace through kinetic operations and strategic diplomacy. The complexities of counter-insurgency are handled with a nuanced approach that prioritizes civilian safety and civil-military cooperation.",
+      "Perhaps most importantly, this issue highlights the transformative initiatives aimed at the region's youth. Through education, sports, and skill development, the Armed Forces are fostering a generation of leaders who will drive the region's future prosperity. We invite you to turn the pages and gain a deeper understanding of the enduring commitment to securing and uplifting the Himalayan Shield."
+    ],
+    "signoff": "The Editorial Team"
+  },
+  "overview": {
+    "title": "The Strategic Theatre",
+    "dek": "Understanding the complex operational landscape and robust formations of the Eastern Command.",
+    "body": [
+      "The Eastern Command, headquartered in Fort William, Kolkata, bears the monumental responsibility of safeguarding India's borders with China, Myanmar, Bangladesh, and Bhutan. The terrain is as diverse as it is challenging, ranging from the high-altitude, freezing plateaus of Sikkim and Arunachal Pradesh to the dense, humid jungles of the Purvanchal range.",
+      "To manage this vast and varied theatre, the command is structured into several specialized formations, each adapted to their specific geographical and operational realities. This intricate network of corps ensures a state of constant readiness, enabling swift responses to both external threats and internal security requirements."
+    ],
+    "image": "images/a32.jpg",
+    "caption": "Map representing the diverse and strategically critical Area of Responsibility of the Eastern Command.",
+    "formations": [
+      {
+        "name": "Spear Corps (3 Corps)",
+        "hq": "Dimapur, Nagaland",
+        "role": "Specializes in counter-insurgency operations and securing the porous Indo-Myanmar border."
+      },
+      {
+        "name": "Gajraj Corps (4 Corps)",
+        "hq": "Tezpur, Assam",
+        "role": "Tasked with the critical defense of the Kameng sector and the LAC in Arunachal Pradesh."
+      },
+      {
+        "name": "Trishakti Corps (33 Corps)",
+        "hq": "Sukna, West Bengal",
+        "role": "Guards the Sikkim border and strategically crucial Siliguri Corridor, often referred to as the 'Chicken's Neck'."
+      }
+    ]
+  },
+  "colophon": {
+    "Publisher": "Ministry of Defence",
+    "Editor": "Yash Agarwal",
+    "Design": "Antigravity IDE",
+    "Contact": "editor@nefrontier.in"
+  },
+  "back": {
+    "image": "images/a45.jpg",
+    "quote": "Northeast is not where India ends, but where India begins. It is the sunrise of our nation's progress.",
+    "cite": "General Upendra Dwivedi",
+    "meta": "Published October 2026 | New Delhi",
+    "credit": "Photo: ADGPI"
+  },
+  "sections": [
+    {
+      "name": "Security & Strategic Affairs",
+      "blurb": "Updates and strategic insights from Security & Strategic Affairs.",
+      "image": "images/a5.jpg",
+      "image_credit": "Photo: India Today NE",
+      "intro": [
+        "The geopolitical landscape of Northeast India is historically complex, serving as a critical frontier for national security. Bounded by international borders with China, Myanmar, Bhutan, and Bangladesh, the region requires a vigilant and multifaceted security approach.",
+        "This section offers an in-depth analysis of the Indian Army's continuous efforts to maintain territorial integrity and regional stability. From countering insurgent groups to orchestrating large-scale joint military exercises, the Armed Forces play an indispensable role in safeguarding this strategic corridor.",
+        "Recent developments underscore the necessity for advanced intelligence gathering and rapid deployment capabilities. As cross-border dynamics evolve, the deployment of state-of-the-art surveillance and robust border fencing initiatives remains paramount."
+      ],
+      "pages": [
+        {
+          "layout": "pair",
+          "articles": [
+            "5",
+            "160"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "125",
+            "18"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "21",
+            "106"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "56",
+            "86"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "66",
+            "26"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "28",
+            "29"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "73",
+            "113"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "202",
+            "187"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "36",
+            "39"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Regional News & Development",
+      "blurb": "Updates and strategic insights from Regional News & Development.",
+      "image": "images/a7.jpg",
+      "image_credit": "Photo: SSBCrack",
+      "intro": [
+        "True security is inextricably linked to infrastructural and socio-economic development. In recent years, the Northeastern states have witnessed an unprecedented wave of modernization, transforming rugged terrains into connected communities.",
+        "This section highlights major development milestones, including the Border Roads Organisation's (BRO) relentless work to establish all-weather connectivity. Projects like the Vibrant Villages programme are pivotal in bringing essential services to the most remote corners of the frontier.",
+        "Furthermore, civil-military synergy is evident in disaster relief operations, medical camps, and community outreach programs, illustrating that the Armed Forces are not merely defenders, but active partners in the region's prosperity."
+      ],
+      "pages": [
+        {
+          "layout": "pair",
+          "articles": [
+            "7",
+            "76"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "10",
+            "11"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "38",
+            "139"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "97",
+            "49"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "61",
+            "65"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "71",
+            "96"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "105",
+            "117"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "186",
+            "168"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "185",
+            "193"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "208",
+            "27"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Society & Youth Empowerment",
+      "blurb": "Updates and strategic insights from Society & Youth Empowerment.",
+      "image": "images/a32.jpg",
+      "image_credit": "Photo: India Today NE",
+      "intro": [
+        "The youth of the Northeast represent the region's most promising demographic dividend. Empowering this vibrant generation is crucial for fostering long-term peace and national integration.",
+        "In this segment, we spotlight initiatives spearheaded by the military to engage and uplift local communities. Educational outreach, skill development workshops, and the expansive network of National Cadet Corps (NCC) camps are bridging cultural divides and providing tangible pathways to success.",
+        "By nurturing leadership, discipline, and a sense of shared national identity, these programs are steering young men and women away from conflict and towards constructive, prosperous futures."
+      ],
+      "pages": [
+        {
+          "layout": "pair",
+          "articles": [
+            "32",
+            "46"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "57",
+            "69"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "89",
+            "84"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "92",
+            "101"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "198",
+            "91"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "138",
+            "119"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "157",
+            "144"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "150",
+            "151"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "154",
+            "158"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports & Achievements",
+      "blurb": "Updates and strategic insights from Sports & Achievements.",
+      "image": "images/a45.jpg",
+      "image_credit": "Photo: SSBCrack",
+      "intro": [
+        "Sports transcend boundaries and serve as a powerful medium for unity and resilience. The Northeast has a rich athletic heritage, consistently producing talents that shine on national and international stages.",
+        "This section celebrates the athletic triumphs within the region, with a special focus on the military's role in fostering sportsmanship. Through the organization of regional tournaments, such as the Assam Rifles Hockey Cup and memorial football leagues, the Armed Forces provide crucial platforms for local athletes.",
+        "These sporting events do more than encourage physical fitness; they build camaraderie, instill discipline, and reinforce the strong, enduring bonds between the military and the communities they serve."
+      ],
+      "pages": [
+        {
+          "layout": "pair",
+          "articles": [
+            "45",
+            "63"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "78",
+            "79"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "93",
+            "94"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "165",
+            "102"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "178",
+            "188"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "189",
+            "197"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "199",
+            "41"
+          ]
+        },
+        {
+          "layout": "lead",
+          "articles": [
+            "42",
+            "67"
+          ]
+        },
+        {
+          "layout": "pair",
+          "articles": [
+            "51",
+            "177"
+          ]
+        }
+      ]
+    }
+  ]
+}

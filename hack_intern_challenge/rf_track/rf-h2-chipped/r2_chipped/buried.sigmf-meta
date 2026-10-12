@@ -1,0 +1,15 @@
+{
+  "global": {
+    "core:datatype": "cf32_le",
+    "core:sample_rate": 400000.0,
+    "core:version": "1.0.0",
+    "core:description": "Wideband passive capture. Nothing is visible above the noise in this recording."
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 2401500000.0
+    }
+  ],
+  "annotations": []
+}

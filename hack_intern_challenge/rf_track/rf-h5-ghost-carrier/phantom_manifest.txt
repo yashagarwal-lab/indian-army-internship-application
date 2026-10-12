@@ -1,0 +1,7 @@
+PHANTOM/1 relay manifest
+key-channel: DSSS, BPSK, GPS C/A code family, one code period per data bit,
+             125 kchip/s nominal, DBPSK. Key is split; key = XOR of all shares.
+key-frame:   F0C3 | idx | total | len | share[len] | crc8/07 over idx..share
+ct: b351f450000461793ea3e8118711dfb9bec4ddc0e31b1d5e49acbc96644acd61cc36b8594f98ae8695a5c1277ef2cdec9e21
+flag = ct XOR SHAKE256(key)[0:len(ct)]
+sha256(flag): 40098199b78bfdd100d45a68631dd4014638a63ad73bffccb557d37cefdccb7a

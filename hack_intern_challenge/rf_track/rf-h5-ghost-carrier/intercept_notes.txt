@@ -1,0 +1,27 @@
+FIELD NOTES -- intercept GC-0914
+================================
+
+Recorder: cheap SDR, uncalibrated, 915 MHz ISM. Format is in the .sigmf-meta.
+
+We think the "PHANTOM" relay network uses a hopping packet radio. Recovered
+from a partially-dumped firmware image (the rest was unreadable):
+
+  - over-the-air frame:   preamble | sync word | WHITENED( hdr | payload | crc )
+  - hdr:                  seq (u8) | total (u8) | len (u8)       ; len = payload bytes
+  - crc:                  CRC-16/CCITT-FALSE (poly 0x1021, init 0xFFFF, no reflect,
+                          no xorout) over hdr||payload, big-endian
+  - bits go out MSB first
+  - whitening: XOR with the byte stream below, seeded per hop channel.
+    Channels are numbered 0..N-1 from lowest to highest frequency.
+
+        def whitening(channel, n):
+            state = 0x100 | channel
+            out = []
+            for _ in range(n):
+                byte = 0
+                for b in range(8):
+                    byte |= (state & 1) << b
+                    fb = (state & 1) ^ ((state >> 5) & 1)
+                    state = (state >> 1) | (fb << 8)
+                out.append(byte)
+            return bytes(out)
