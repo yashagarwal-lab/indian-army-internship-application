@@ -154,7 +154,7 @@ lfsr-frequency-hop-sequence-recovery/
 ### Running the Python Solver
 
 ```bash
-git clone https://github.com/<your-username>/lfsr-frequency-hop-sequence-recovery.git
+git clone https://github.com/yashagarwal-lab/lfsr-frequency-hop-sequence-recovery.git
 cd lfsr-frequency-hop-sequence-recovery
 pip install -r requirements.txt
 python solve.py

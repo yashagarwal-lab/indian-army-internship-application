@@ -142,7 +142,7 @@ successive-interference-cancellation/
 ## 7. Setup and Execution
 
 ```bash
-git clone https://github.com/<username>/successive-interference-cancellation.git
+git clone https://github.com/yashagarwal-lab/successive-interference-cancellation.git
 cd successive-interference-cancellation
 git lfs pull
 

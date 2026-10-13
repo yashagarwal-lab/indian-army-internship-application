@@ -170,7 +170,7 @@ git lfs install
 ### Installation & Run
 
 ```bash
-git clone https://github.com/<your-username>/aes-key-schedule-reversal-ram-forensics.git
+git clone https://github.com/yashagarwal-lab/aes-key-schedule-reversal-ram-forensics.git
 cd aes-key-schedule-reversal-ram-forensics
 git lfs pull
 pip install -r requirements.txt

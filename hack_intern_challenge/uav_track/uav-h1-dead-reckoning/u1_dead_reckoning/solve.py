@@ -1,9 +1,11 @@
+from pathlib import Path
 import pandas as pd
 import numpy as np
 import math
 
-imu = pd.read_csv('imu.csv')
-gnss = pd.read_csv('gnss.csv')
+BASE_DIR = Path(__file__).resolve().parent
+imu = pd.read_csv(BASE_DIR / 'imu.csv')
+gnss = pd.read_csv(BASE_DIR / 'gnss.csv')
 
 dt = np.zeros(len(imu))
 dt[1:] = imu['t_s'].values[1:] - imu['t_s'].values[:-1]
@@ -52,3 +54,4 @@ n_plat_all = diff_vel_n_detrended[mask_all_plateau].mean() - n_base
 e_plat_all = diff_vel_e_detrended[mask_all_plateau].mean() - e_base
 bearing_all = math.degrees(math.atan2(e_plat_all, n_plat_all))
 print(f"All Plateau: n={n_plat_all:.4f}, e={e_plat_all:.4f}, bearing={bearing_all:.2f}")
+print(f"Flag: KST{{400_{round(bearing_all, -1):03.0f}}}")

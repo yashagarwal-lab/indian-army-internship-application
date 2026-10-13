@@ -122,7 +122,7 @@ rf-hardware-fingerprinting-iq-imbalance/
 ## 6. Setup and Execution
 
 ```bash
-git clone https://github.com/<username>/rf-hardware-fingerprinting-iq-imbalance.git
+git clone https://github.com/yashagarwal-lab/rf-hardware-fingerprinting-iq-imbalance.git
 cd rf-hardware-fingerprinting-iq-imbalance
 git lfs pull
 

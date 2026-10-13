@@ -159,7 +159,7 @@ git lfs install
 ### Installation & Run
 
 ```bash
-git clone https://github.com/<your-username>/gtp-u-covert-channel-5g-steganography.git
+git clone https://github.com/yashagarwal-lab/gtp-u-covert-channel-5g-steganography.git
 cd gtp-u-covert-channel-5g-steganography
 git lfs pull
 pip install -r requirements.txt

@@ -157,7 +157,7 @@ git lfs install
 ### Installation & Run
 
 ```bash
-git clone https://github.com/<your-username>/5g-nas-replay-attack-detection.git
+git clone https://github.com/yashagarwal-lab/5g-nas-replay-attack-detection.git
 cd 5g-nas-replay-attack-detection
 git lfs pull
 python solve.py

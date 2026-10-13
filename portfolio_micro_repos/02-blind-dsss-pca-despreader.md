@@ -146,7 +146,7 @@ blind-dsss-pca-despreader/
 ## 7. Setup and Execution
 
 ```bash
-git clone https://github.com/<username>/blind-dsss-pca-despreader.git
+git clone https://github.com/yashagarwal-lab/blind-dsss-pca-despreader.git
 cd blind-dsss-pca-despreader
 git lfs pull
 

@@ -149,7 +149,7 @@ byzantine-fault-tolerant-swarm-consensus/
 ## 7. Setup & Execution
 
 ```bash
-git clone https://github.com/<your-username>/byzantine-fault-tolerant-swarm-consensus.git
+git clone https://github.com/yashagarwal-lab/byzantine-fault-tolerant-swarm-consensus.git
 cd byzantine-fault-tolerant-swarm-consensus
 pip install -r requirements.txt
 python solve.py

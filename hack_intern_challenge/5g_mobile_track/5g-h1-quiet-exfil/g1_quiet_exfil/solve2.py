@@ -1,8 +1,10 @@
+from pathlib import Path
 from scapy.all import rdpcap
 from scapy.contrib.gtp import GTP_U_Header
 from scapy.all import IP, UDP
 
-pkts = rdpcap("n3_userplane.pcap")
+BASE_DIR = Path(__file__).resolve().parent
+pkts = rdpcap(str(BASE_DIR / "n3_userplane.pcap"))
 
 # Group packets by flow
 flows = {}

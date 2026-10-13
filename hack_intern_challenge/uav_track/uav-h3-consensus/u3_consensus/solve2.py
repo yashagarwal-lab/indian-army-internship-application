@@ -1,13 +1,15 @@
+from pathlib import Path
 import pandas as pd
 import numpy as np
 from scipy.optimize import minimize
 import itertools
 
-sensors = pd.read_csv('sensors.csv')
+BASE_DIR = Path(__file__).resolve().parent
+sensors = pd.read_csv(BASE_DIR / 'sensors.csv')
 sensor_pos = {row['sensor']: (row['north_m'], row['east_m']) for _, row in sensors.iterrows()}
 sensor_names = sorted(list(sensor_pos.keys()))
 
-arrivals = pd.read_csv('arrivals.csv')
+arrivals = pd.read_csv(BASE_DIR / 'arrivals.csv')
 c = 299792458.0
 
 bursts = arrivals.groupby('burst_id')

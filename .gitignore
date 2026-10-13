@@ -28,5 +28,4 @@ patch_*.js
 check_*.js
 
 # Standalone nested repository & prototypes
-automated-defense-magazine-generator/
 magazine_generation/

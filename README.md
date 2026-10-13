@@ -57,33 +57,33 @@ Each challenge has been solved, verified, and published as a self-contained GitH
 
 | Challenge | Title & Physics | Solved Flag / Output | Standalone Repository |
 |---|---|---|---|
-| **RF-H1** | Successive Interference Cancellation (SIC), Costas loop carrier sync, Gardner TED, BPSK pilot isolation | `RFCTF{two_radios_c0_chann3l_succ3ss}` | [successive-interference-cancellation](https://github.com/yashagarwal-lab/successive-interference-cancellation) |
+| **RF-H1** | Successive Interference Cancellation (SIC), Costas loop carrier sync, Gardner TED, BPSK pilot isolation | `RFCTF{c4nc3l_th3_l0ud_0n3_f1rst}` | [successive-interference-cancellation](https://github.com/yashagarwal-lab/successive-interference-cancellation) |
 | **RF-H2** | Blind DSSS Despreading, SVD/PCA eigenvector decomposition, principal chip sequence recovery | `RFCTF{wh0_n33ds_th3_c0d3_b00k}` | [blind-dsss-pca-despreader](https://github.com/yashagarwal-lab/blind-dsss-pca-despreader) |
-| **RF-H3** | RF Hardware Fingerprinting, IQ mixer imbalance, Image Rejection Ratio (IRR), spectral asymmetry emitter ID | `RFCTF{r4d10_dna_1mbalance_match}` | [rf-hardware-fingerprinting-iq-imbalance](https://github.com/yashagarwal-lab/rf-hardware-fingerprinting-iq-imbalance) |
-| **RF-H5** | 16-channel FHSS Demodulation, 2-FSK matched filtering, GPS C/A PRN de-whitening, notch filtering, Shamir secret recovery | `RFCTF{gh0st_c4rr13r_fhss_unm4sk3d}` | [fhss-lfsr-dewhitening-gps-ca](https://github.com/yashagarwal-lab/fhss-lfsr-dewhitening-gps-ca) |
+| **RF-H3** | RF Hardware Fingerprinting, IQ mixer imbalance, Image Rejection Ratio (IRR), spectral asymmetry emitter ID | `RFCTF{D_B_26}` | [rf-hardware-fingerprinting-iq-imbalance](https://github.com/yashagarwal-lab/rf-hardware-fingerprinting-iq-imbalance) |
+| **RF-H5** | 16-channel FHSS Demodulation, 2-FSK matched filtering, GPS C/A PRN de-whitening, notch filtering, Shamir secret recovery | `RFCTF{ph4nt0m_sp3ctrum_b3n34th_th3_fl00r_0f_n01s3}` | [fhss-lfsr-dewhitening-gps-ca](https://github.com/yashagarwal-lab/fhss-lfsr-dewhitening-gps-ca) |
 
 ### Track 2: Serial GAGAN — Unmanned Systems & Autonomy
 
 | Challenge | Title & Mathematics | Solved Flag / Output | Standalone Repository |
 |---|---|---|---|
-| **UAV-H1** | GNSS Spoofing Onset Detection, Newtonian IMU dead-reckoning integration, detrended innovation statistics | `RFCTF{spoof_detected_t_142_8s}` | [gnss-spoofing-imu-dead-reckoning](https://github.com/yashagarwal-lab/gnss-spoofing-imu-dead-reckoning) |
-| **UAV-H2** | Fibonacci LFSR Frequency-Hop State Recovery, non-linear filter inversion, Berlekamp-Massey / C state solver | `RFCTF{lfsr_st4t3_0x8f2d4a1b}` | [lfsr-frequency-hop-sequence-recovery](https://github.com/yashagarwal-lab/lfsr-frequency-hop-sequence-recovery) |
+| **UAV-H1** | GNSS Spoofing Onset Detection, Newtonian IMU dead-reckoning integration, detrended innovation statistics | `KST{400_060}` | [gnss-spoofing-imu-dead-reckoning](https://github.com/yashagarwal-lab/gnss-spoofing-imu-dead-reckoning) |
+| **UAV-H2** | Fibonacci LFSR Frequency-Hop State Recovery, non-linear filter inversion, Berlekamp-Massey / C state solver | `KST{53-31-0-60-16-1-67-35-35-62-35-64}` | [lfsr-frequency-hop-sequence-recovery](https://github.com/yashagarwal-lab/lfsr-frequency-hop-sequence-recovery) |
 | **UAV-H3** | Byzantine Fault-Tolerant Swarm Consensus, TDOA hyperbolic multilateration, Trimmed-Mean / Krum outlier rejection | `KST{4210_-1830_CE}` | [byzantine-fault-tolerant-swarm-consensus](https://github.com/yashagarwal-lab/byzantine-fault-tolerant-swarm-consensus) |
 
 ### Track 3: Serial LOHA JAAL — 5G Core & Protocol Forensics
 
 | Challenge | Title & Protocols | Solved Flag / Output | Standalone Repository |
 |---|---|---|---|
-| **5G-H1** | 5G N3 Interface GTP-U Covert Channel, UDP reserved header steganography, IP userplane exfiltration extraction | `RFCTF{gtp_u_c0v3rt_ch4nn3l_f0und}` | [gtp-u-covert-channel-5g-steganography](https://github.com/yashagarwal-lab/gtp-u-covert-channel-5g-steganography) |
-| **5G-H2** | 5G NAS Signaling Replay Detection, 3GPP TS 33.501 sequence counter monotonicity violation audit | Frame 218 (`UE 4217`, DL, Type `0x54`, Seq `0`) | [5g-nas-replay-attack-detection](https://github.com/yashagarwal-lab/5g-nas-replay-attack-detection) |
+| **5G-H1** | 5G N3 Interface GTP-U Covert Channel, UDP reserved header steganography, IP userplane exfiltration extraction | `RFCTF{s1z3_1s_th3_m3ss4g3}` | [gtp-u-covert-channel-5g-steganography](https://github.com/yashagarwal-lab/gtp-u-covert-channel-5g-steganography) |
+| **5G-H2** | 5G NAS Signaling Replay Detection, 3GPP TS 33.501 sequence counter monotonicity violation audit | `RFCTF{96_4217}` | [5g-nas-replay-attack-detection](https://github.com/yashagarwal-lab/5g-nas-replay-attack-detection) |
 | **5G-H3** | 5G-GUTI Temporary Identifier Tracking, chained finite-state machine (FSM), N2/Xn handover mobility tracing | `RFCTF{6b5a87ba_6}` | [5g-guti-mobility-tracking](https://github.com/yashagarwal-lab/5g-guti-mobility-tracking) |
 
 ### Track 4: Serial NIGHT KITE — Cyber-Electronic Warfare & Cryptanalysis
 
 | Challenge | Title & Cryptanalysis | Solved Flag / Output | Standalone Repository |
 |---|---|---|---|
-| **CEMA-H1** | AES-128 Correlation Power Analysis (CPA), CMOS dynamic power consumption model, Pearson correlation on Hamming weight | `Intern_Pro_Max{1be077d94bd50ab8f50e04fef7a5df14}` | [aes-correlation-power-analysis](https://github.com/yashagarwal-lab/aes-correlation-power-analysis) |
-| **CEMA-H2** | Galois Field $\operatorname{GF}(2^{64})$ Affine Transformation Inversion, forward/backward S-box linear cryptanalysis, Gaussian elimination | `Intern_Pro_Max{gf2_aff1n3_m4ps_f4ll_t0_g4uss}` | [gf2-linear-cryptanalysis-gaussian-elimination](https://github.com/yashagarwal-lab/gf2-linear-cryptanalysis-gaussian-elimination) |
+| **CEMA-H1** | AES-128 Correlation Power Analysis (CPA), CMOS dynamic power consumption model, Pearson correlation on Hamming weight | `Intern_Pro_Max{497273ee467538dd2b2e814f571aa95c}` | [aes-correlation-power-analysis](https://github.com/yashagarwal-lab/aes-correlation-power-analysis) |
+| **CEMA-H2** | Galois Field $\operatorname{GF}(2^{64})$ Affine Transformation Inversion, forward/backward S-box linear cryptanalysis, Gaussian elimination | `Intern_Pro_Max{c7a41f93b65d2e08}` | [gf2-linear-cryptanalysis-gaussian-elimination](https://github.com/yashagarwal-lab/gf2-linear-cryptanalysis-gaussian-elimination) |
 | **CEMA-H3** | AES Key Schedule Reversal from RAM Forensics, round constant ($\operatorname{Rcon}$) backward step, 128-bit master key recovery | `Intern_Pro_Max{sch3dul3_runs_b0th_ways}` | [aes-key-schedule-reversal-ram-forensics](https://github.com/yashagarwal-lab/aes-key-schedule-reversal-ram-forensics) |
 
 ---
@@ -148,23 +148,33 @@ internship_application_indian_army/
 ## 🚀 Quickstart & Verification
 
 ```bash
-# Clone the repository
-git clone https://github.com/yashagarwal-lab/indian-army-internship-application.git
+# Clone the repository (including automated-defense-magazine-generator submodule)
+git clone --recurse-submodules https://github.com/yashagarwal-lab/indian-army-internship-application.git
 cd indian-army-internship-application
 
 # Create and activate Python virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies
-pip install numpy scipy scapy matplotlib pyyaml
+# Install master dependencies
+pip install -r requirements.txt
 
-# Execute an individual challenge solver (e.g. UAV-H1 GNSS spoofing)
+# Execute individual challenge solvers directly from repository root:
+# 1. UAV-H1 GNSS Spoofing Onset & Bearing Detection
 python3 hack_intern_challenge/uav_track/uav-h1-dead-reckoning/u1_dead_reckoning/solve.py
 
-# Execute CEMA-H3 AES key schedule reversal
+# 2. UAV-H3 Byzantine Fault-Tolerant Swarm Consensus
+python3 hack_intern_challenge/uav_track/uav-h3-consensus/u3_consensus/solve.py
+
+# 3. CEMA-H3 AES Key Schedule Reversal from Core Dump
 python3 hack_intern_challenge/cema_track/cema-h3-core-dump2/c3_core_dump2/solve_fast.py
+
+# 4. 5G-H2 NAS Protocol Sequence Replay Detection
+python3 hack_intern_challenge/5g_mobile_track/5g-h2-replay/g2_replay/solve.py
 ```
+
+> [!NOTE]
+> **Large Signal Captures & PCAP Files:** High-bandwidth binary captures (`*.sigmf-data`, `*.pcap`) are maintained and distributed in the respective standalone micro-repositories via Git LFS. For RF and 5G solvers requiring raw binary captures, clone the corresponding micro-repository (e.g., `git clone https://github.com/yashagarwal-lab/successive-interference-cancellation.git && git lfs pull`).
 
 ---
 

@@ -159,7 +159,7 @@ git lfs install
 ### Installation & Run
 
 ```bash
-git clone https://github.com/<your-username>/5g-guti-mobility-tracking.git
+git clone https://github.com/yashagarwal-lab/5g-guti-mobility-tracking.git
 cd 5g-guti-mobility-tracking
 git lfs pull
 python solve.py

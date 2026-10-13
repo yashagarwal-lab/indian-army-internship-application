@@ -1,9 +1,11 @@
+from pathlib import Path
 import numpy as np
 from scipy.sparse.linalg import svds
 import time
 
 t0 = time.time()
-raw = np.fromfile("buried.sigmf-data", dtype=np.float32)
+BASE_DIR = Path(__file__).resolve().parent
+raw = np.fromfile(BASE_DIR / "buried.sigmf-data", dtype=np.float32)
 x = raw[0::2] + 1j*raw[1::2]
 
 L = 508

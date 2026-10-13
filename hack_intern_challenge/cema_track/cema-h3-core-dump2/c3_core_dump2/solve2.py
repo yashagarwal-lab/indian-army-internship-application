@@ -1,10 +1,12 @@
+from pathlib import Path
 import sys
 import struct
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 
 # 1. Find and extract the mission record
-with open("controller_ram.bin", "rb") as f:
+BASE_DIR = Path(__file__).resolve().parent
+with open(BASE_DIR / "controller_ram.bin", "rb") as f:
     data = f.read()
 
 idx = data.find(b"MSNCRYPT")

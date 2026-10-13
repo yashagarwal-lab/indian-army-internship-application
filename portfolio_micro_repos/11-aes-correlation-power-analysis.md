@@ -123,7 +123,7 @@ aes-correlation-power-analysis/
 ## 7. Setup and Execution
 
 ```bash
-git clone https://github.com/<username>/aes-correlation-power-analysis.git
+git clone https://github.com/yashagarwal-lab/aes-correlation-power-analysis.git
 cd aes-correlation-power-analysis
 git lfs pull
 

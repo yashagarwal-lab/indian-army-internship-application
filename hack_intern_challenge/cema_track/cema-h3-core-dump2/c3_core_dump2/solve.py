@@ -1,9 +1,11 @@
 import sys
 import struct
+from pathlib import Path
 from Crypto.Cipher import AES
 
 # 1. Find and extract the mission record
-with open("controller_ram.bin", "rb") as f:
+BASE_DIR = Path(__file__).resolve().parent
+with open(BASE_DIR / "controller_ram.bin", "rb") as f:
     data = f.read()
 
 idx = data.find(b"MSNCRYPT")

@@ -1,0 +1,3 @@
+[submodule "automated-defense-magazine-generator"]
+	path = automated-defense-magazine-generator
+	url = https://github.com/yashagarwal-lab/automated-defense-magazine-generator.git

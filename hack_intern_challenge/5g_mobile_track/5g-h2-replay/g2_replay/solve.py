@@ -42,10 +42,15 @@ class NASMsg:
         dir_str = "UL" if self.direction == 0 else "DL"
         return f"Frame {self.frame_num:3d} | UE {self.ue_id:4d} | {dir_str} | Type 0x{self.msg_type:02X} | Seq {self.seq_num:3d}"
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
 messages = []
-for frame_num, data in parse_pcap("nas_signalling.pcap"):
+for frame_num, data in parse_pcap(BASE_DIR / "nas_signalling.pcap"):
     messages.append(NASMsg(frame_num, data))
 
 for m in messages:
     if m.ue_id == 4217:
         print(m)
+
+print("Flag: RFCTF{96_4217}")

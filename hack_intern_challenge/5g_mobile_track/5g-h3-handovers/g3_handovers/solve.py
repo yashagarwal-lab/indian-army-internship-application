@@ -21,7 +21,10 @@ def parse_pcap(filename):
                 yield pkt_data[idx:].decode('ascii', errors='ignore')
             frame_num += 1
 
-events = list(parse_pcap('mobility_events.pcap'))
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+events = list(parse_pcap(BASE_DIR / 'mobility_events.pcap'))
 
 parsed_events = []
 for ev_str in events:

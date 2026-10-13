@@ -95,8 +95,11 @@ for i in range(64):
     row = [(val >> j) & 1 for j in range(64)]
     M_rows.append(row)
 
+from pathlib import Path
+
 missions = []
-with open("sealed_missions.txt", "r") as f:
+BASE_DIR = Path(__file__).resolve().parent
+with open(BASE_DIR / "sealed_missions.txt", "r") as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith("#"): continue

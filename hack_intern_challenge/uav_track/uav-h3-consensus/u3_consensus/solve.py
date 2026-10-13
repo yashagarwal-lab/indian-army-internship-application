@@ -1,15 +1,18 @@
+from pathlib import Path
 import pandas as pd
 import numpy as np
 from scipy.optimize import minimize
 import itertools
 
+BASE_DIR = Path(__file__).resolve().parent
+
 # Load sensors
-sensors = pd.read_csv('sensors.csv')
+sensors = pd.read_csv(BASE_DIR / 'sensors.csv')
 sensor_pos = {row['sensor']: (row['north_m'], row['east_m']) for _, row in sensors.iterrows()}
 sensor_names = sorted(list(sensor_pos.keys()))
 
 # Load arrivals
-arrivals = pd.read_csv('arrivals.csv')
+arrivals = pd.read_csv(BASE_DIR / 'arrivals.csv')
 
 # Speed of light
 c = 299792458.0

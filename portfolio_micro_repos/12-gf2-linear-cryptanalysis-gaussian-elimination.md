@@ -168,7 +168,7 @@ gf2-linear-cryptanalysis-gaussian-elimination/
 ### Running the Python Solver
 
 ```bash
-git clone https://github.com/<your-username>/gf2-linear-cryptanalysis-gaussian-elimination.git
+git clone https://github.com/yashagarwal-lab/gf2-linear-cryptanalysis-gaussian-elimination.git
 cd gf2-linear-cryptanalysis-gaussian-elimination
 pip install -r requirements.txt
 python solve.py

@@ -175,7 +175,7 @@ fhss-lfsr-dewhitening-gps-ca/
 ## 7. Setup and Execution
 
 ```bash
-git clone https://github.com/<your-username>/fhss-lfsr-dewhitening-gps-ca.git
+git clone https://github.com/yashagarwal-lab/fhss-lfsr-dewhitening-gps-ca.git
 cd fhss-lfsr-dewhitening-gps-ca
 git lfs pull                   # downloads the 16 MB SigMF recording
 

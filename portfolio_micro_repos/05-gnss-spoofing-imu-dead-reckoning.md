@@ -177,7 +177,7 @@ git lfs install
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/gnss-spoofing-imu-dead-reckoning.git
+git clone https://github.com/yashagarwal-lab/gnss-spoofing-imu-dead-reckoning.git
 cd gnss-spoofing-imu-dead-reckoning
 git lfs pull
 pip install -r requirements.txt

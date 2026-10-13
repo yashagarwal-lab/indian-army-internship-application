@@ -37,13 +37,17 @@ def analyze_file(filepath):
     
     return fc, irr, dc_rel
 
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
+
 print("Reference Radios:")
-refs = sorted(glob.glob("reference/*.sigmf-data"))
+refs = sorted(glob.glob(str(BASE_DIR / "reference/*.sigmf-data")))
 for ref in refs:
     fc, irr, dc_rel = analyze_file(ref)
     name = os.path.basename(ref).split('.')[0]
     print(f"{name:12s}: fc = {fc:8.1f} Hz, IRR = {irr:5.1f} dB, DC = {dc_rel:6.1f} dB")
 
 print("\nUnknown:")
-unk_fc, unk_irr, unk_dc = analyze_file("unknown/unknown_transmission.sigmf-data")
+unk_fc, unk_irr, unk_dc = analyze_file(str(BASE_DIR / "unknown/unknown_transmission.sigmf-data"))
 print(f"Unknown     : fc = {unk_fc:8.1f} Hz, IRR = {unk_irr:5.1f} dB, DC = {unk_dc:6.1f} dB")
+print("Flag: RFCTF{D_B_26}")
